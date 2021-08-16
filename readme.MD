@@ -134,6 +134,6 @@ It is possible to create new screens and completely change their behavior. Just 
 ```mermaid
 graph LR
   ms1(Conversion Microservice) --> db1[(DB 1)] & dbn[(DB n)]
-  db1 & dbn ----> microservice(redshift convertion)
+  db1 & dbn ----> microservice(redshift conversion)
   microservice ----> redshift[(redshift)]
 ```
